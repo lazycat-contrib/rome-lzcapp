@@ -1,0 +1,18 @@
+package: community.lazycat.app.rome
+version: 1.1.152
+name: Rome
+description: 自托管个人智能体工作空间
+min_os_version: 1.6.1
+homepage: https://github.com/rome-os/rome
+author: rome-os
+locales:
+  zh:
+    name: Rome
+    description: 自托管个人智能体工作空间
+  en:
+    name: Rome
+    description: Rome self-hosted service
+permissions:
+  required:
+  - net.internet
+  - fuse.mount

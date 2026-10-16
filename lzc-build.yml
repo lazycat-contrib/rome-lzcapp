@@ -1,0 +1,11 @@
+manifest: ./lzc-manifest.yml
+pkgout: ./dist
+icon: ./icon.png
+contentdir: ./content
+compose_override:
+  services:
+    rome:
+      cap_add:
+      - SYS_ADMIN
+      security_opt:
+      - apparmor:unconfined
