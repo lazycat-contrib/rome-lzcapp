@@ -1,4 +1,5 @@
 package: community.lazycat.app.rome
+license: MIT
 version: 1.1.152
 name: Rome
 description: 自托管个人智能体工作空间
@@ -14,5 +15,5 @@ locales:
     description: Rome self-hosted service
 permissions:
   required:
-  - net.internet
-  - fuse.mount
+    - net.internet
+    - fuse.mount
