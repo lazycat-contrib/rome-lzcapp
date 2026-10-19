@@ -37,7 +37,7 @@ services:
         - -e
         - fetch("http://127.0.0.1:9368/health").then(r=>{if(!r.ok)throw 1}).catch(()=>process.exit(1))
       timeout: 10s
-    # upstream: yunfanye/rome:1.1.153
-    image: docker.1ms.run/yunfanye/rome:1.1.153
+    # upstream: yunfanye/rome:1.1.154
+    image: docker.1ms.run/yunfanye/rome:1.1.154
     shm_size: 1gb
 usage: 保留上游 Guardian 会话认证及首次初始化流程。首次启动需复制内置运行时到持久目录，可能较慢。包含浏览器运行环境，依照上游需要 SYS_ADMIN、1GB共享内存和 FUSE 权限；只授予可信用户。禁用宿主执行助手及个人微信集成。不暴露独立 CDP/noVNC 端口。未配置可选的集中式 OTEL 日志收集服务。
