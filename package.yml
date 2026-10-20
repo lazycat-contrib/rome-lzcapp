@@ -1,6 +1,6 @@
 package: community.lazycat.app.rome
 license: MIT
-version: 1.1.154
+version: 1.1.155
 name: Rome
 description: 自托管个人智能体工作空间
 min_os_version: 1.6.1
